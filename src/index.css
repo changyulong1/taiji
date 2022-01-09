@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 00;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #ccc;
+}
+#tu{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+@media (max-width:500px) {
+    #html{
+        width: 90vw;
+        height: 50vh;
+        overflow-y: scroll;
+    }
+    #tu{
+        position: relative;   
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    #tu::after{
+        width: 100px;
+        height: 100px;
+    }
+    #tu::before{
+        width: 100px;
+        height: 100px;
+    }
+}
